@@ -1,0 +1,13 @@
+.pending{
+    color : gray
+}
+
+.correct{
+    color: green;
+
+}
+
+.incorrect{
+    font-weight: bolder;
+    color: brown;
+}
