@@ -1,4 +1,7 @@
-# generate-password-with-angular
-generate password with angular
+# implementationOnAngular
+Angular Application
 
-<a href="https://gen-pass-self.vercel.app/">Project Demo</a>
+|  #  |            Project             | Live Demo |
+| :-: | :----------------------------:  | :-------: |
+| 01  |       Gen-Password      | [Live Demo](https://gen-pass-self.vercel.app/)  |
+| 02  |       Cards          |    [Live Demo](https://cards-two-virid.vercel.app/)  |
