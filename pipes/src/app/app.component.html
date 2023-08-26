@@ -1,0 +1,70 @@
+<div class="container">
+  <h2>Payment Form</h2>
+
+  <div class="row my-3">
+    <div class="form-group col">
+      <label>Name</label>
+      <input class="form-control" (input)="onNameChange($event)" />
+    </div>
+    <div class="col">
+      <label for=""><b>Name</b></label>
+      <div>
+        {{name | titlecase}}
+      </div>
+    </div>
+  </div>
+
+  <div class="row my-3">
+    <div class="form-group col">
+      <label>Date</label>
+      <input type="date" class="form-control" (input)="onNameDate($event)" />
+    </div>
+    <div class="col">
+      <label for=""><b>Date</b></label>
+      <div>
+        {{date | date :'MMMM d , y'}}
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="form-group col">
+      <label>Amount</label>
+      <input class="form-control" (input)="onNameAmount($event)" />
+    </div>
+    <div class="col">
+      <label for=""><b>Amount</b></label>
+      <div>
+        {{Amount | currency }}
+      </div>
+    </div>
+  </div>
+
+  <div class="row  my-3">
+    <div class="form-group col">
+      <label>height</label>
+      <input class="form-control" (input)="onNameHeight($event)" />
+    </div>
+    <div class="col">
+      <label for=""><b>height</b></label>
+      <div>
+        {{height |number :'1.0-0' }}
+      </div>
+    </div>
+  </div>
+
+  <div class="row  my-3">
+    <div class="form-group col">
+      <label>miles</label>
+      <input class="form-control" (input)="onNameMiles($event)" />
+    </div>
+    <div class="col">
+      <label ><b>KiloMeters</b></label>
+      <div>
+        {{miles | convert : 'cm'  | number :'1.0-2'}}
+      </div>
+    </div>
+
+  </div>
+  {{car | json}}
+</div>
