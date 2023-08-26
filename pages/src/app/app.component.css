@@ -1,0 +1,10 @@
+.img-box {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.img-box img {
+    width: 500px;
+    height: 350px;
+    object-fit: contain;
+}

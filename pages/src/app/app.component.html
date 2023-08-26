@@ -1,0 +1,24 @@
+<nav class=" my-2  container text-center" aria-label="Page navigation example">
+  <ul class="pagination justify-content-center w-100 text-center align-items-center">
+
+    <li class="page-item" [ngClass]="{disabled : curPage === 0} ">
+      <a (click)="curPage = curPage - 1" class="page-link">Prev</a>
+    </li>
+
+    <ng-container *appTimes="images.length ; let i = index">
+      <li class="page-item" [ngClass]="{active : i === curPage}" *ngIf="checkWindowIndex(i)">
+        <a (click)="curPage = i " class="page-link">{{ i + 1 }}</a>
+      </li>
+    </ng-container>
+
+    <li class="page-item" [ngClass]="{disabled : curPage === images.length-1} ">
+      <a (click)="curPage = curPage + 1" class="page-link">Next</a>
+    </li>
+
+  </ul>
+  <div class="img-box">
+    <h4 class="my-2" [appClass]="'gray'">{{images[curPage].title}}</h4>
+    <img [src]="images[curPage].url" alt="">
+  </div>
+
+</nav>
