@@ -8,3 +8,5 @@ Angular Application
 | 03  |       typingGame          |        |
 | 04  |       Pipes               |     [Live Demo](https://pipes-gamma-six.vercel.app/)|
 | 05  |       Slider Pages |             [Live Demo](https://sliderpages.vercel.app/)|
+| 06  |      components |             [Live Demo](https://components-rho-six.vercel.app/)|
+
