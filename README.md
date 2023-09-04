@@ -10,4 +10,5 @@ Angular Application
 | 05  |       Slider Pages |             [Live Demo](https://sliderpages.vercel.app/)|
 | 06  |      components |             [Live Demo](https://components-rho-six.vercel.app/)|
 | 07  |      Wikipedia Search App|             [Live Demo](https://w-search.vercel.app/)|
+| 08  |      Angular Internationalization|           |
 
