@@ -11,4 +11,5 @@ Angular Application
 | 06  |      components |             [Live Demo](https://components-rho-six.vercel.app/)|
 | 07  |      Wikipedia Search App|             [Live Demo](https://w-search.vercel.app/)|
 | 08  |      Angular Internationalization|           |
+| 09  | fetch Photos   |           |
 
